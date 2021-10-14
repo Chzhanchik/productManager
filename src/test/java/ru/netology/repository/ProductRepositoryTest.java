@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ProductRepositoryTest {
     ProductRepository repository = new ProductRepository();
-    Product book1 = new Book(1, "book1", 1000, "автор1");
+    Product book1 = new Book(3, "book1", 1000, "автор1");
     Product book2 = new Book(2, "book2", 2000, "автор2");
     Product smartphone1 = new Smartphone(11, "iPhone", 5000, "USA");
     Product smartphone2 = new Smartphone(22, "Honor", 2000, "China");
